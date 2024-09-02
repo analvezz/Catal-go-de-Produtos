@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Minha página incrivel</title>
+      <!-- Parte do CSS-->
+</head>
+<body>
+      <header>
+         <h1>Bem-vindo á Minha Página!</h1>
+         <p>Explore o incrivel mundo que criamos para você.</p>
+     </header>
+     <main>
+          <img src="./imagem.jpg" alt="pombo senai">
+         <form action="/processar-login" method="post">
+            <label for="usuario">Usuário:</label>
+         <input type="text" id="usuario" name="usuario" required>
+
+ 
+         <label for="senha">Senha:</label>
+         <input type="password" id="senha" name="senha" required>
+
+
+         <button type="submit">Entrar</button>
+
+         <label for="comentario">Comentário:</label>
+         <textarea id="comentario" name="comentatio" rows="4" cols="50"></textarea>
+
+         <input type="reset" value="Limpar">
+
+         <input type="checkbox" id="receber-noticias" name="receber-noticias" checked>
+         <label for="receber-noticias">Receber Notícias</label>
+
+
+         <input type="radio" id="masculino" name="genero" value="masculino"
+         <label for="masculino">Masculino</label>
+
+         <input type="radio" id="feminino" name="genero" value="feminino">
+         <label for="feminino">feminino</label>
+
+         <label for="pais">Selecione seu pais:</label>
+         <select id="pais" name="pais">
+            <option value="brasil">Brasil</option>
+            <option value="portugal">Portugal</option>
+            <option value="eua">Estados Unidos</option>
+        </select>
+
+        
+
+         
+         </form>
+         <ul>
+
+         <li><a href="/produtos">Produtos</a></a></li>
+         <li><a href="/servicos">Serviços</a></li>
+         <li><a href="/suporte">Suporte</a></li>
+         
+         </ul>
+
+         <p><strong>Importante:</strong> Preencha todos os campos obrigatórios.</p>
+         <p><em>Lembre-se de manter sua senha em segredo.</em></p>
+
+         <ol>
+
+            <li>Passo 1</li>
+            <li>Passo 2</li>
+            <li>Passo 3</li>
+
+         </ol>
+         
+         <ul>
+
+            <li>Animal
+                <ul>
+                    <li>Mamífero</li>
+                    <li>Reptil</li>
+                    <li>Ave</li>
+
+                </ul>
+                <li>Planta
+
+                    <ul>
+
+                        <li>Florírefa</li>
+                        <li>Árvore</li>
+                        <li>Erva</li>
+                        
+                    </ul>
+                </li>
+            </li>
+         </ul>
+          <!-- Seu conteúdo principal vai aqui -->
+
+          <p>Este é um texto <strong>importante</strong> e <em>ênfase</em>.</p>
+          <hr>
+          <p>Esta é a <mark>parte destacada</mark> do texto.</p>
+          <hr>
+
+          <p><small>Texto menor</small></p>
+
+          <p><big>Texto maior</big></p>
+
+          <blockquote>
+            <p>"O problema esta entre a cadeira e o teclado."</p>
+            <cite> lenon yuri </cite>
+          </blockquote>
+
+          <table>
+            <tr>
+
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>País</th>
+            </tr>
+
+            <tr>
+                <td>Clarlos</td>
+                <td>30</td>
+                <td>Brasil</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>Portugal</td>
+            </tr>
+
+          </table>
+          <tr>
+
+            <td colspan="2">Célula Mesclada</td>
+            <td>Outra Célula</td>
+          </tr>
+
+          <tr>
+            <td><a href="/perfil/carlos">Carlos</a></td>
+            <td>30</td>
+            <td>Brasil</td>
+          </tr>
+          <figure>
+            <img src="https://omeudiadia.com.br/wp-content/uploads/2022/04/imagem-de-gatinho-fofo.jpg" alt="Descrição da Imagem">
+            <figcaption>O gatinho mais fofo que você verá hoje. </figcaption>
+          </figure>
+          <video width="480" height="320" controls>
+            <source src="./Peppa Pig Português Brasil Peppa adora o Dia da Panqueca!🥞 Desenhos Animados.mp4" typ="Video/mp3">
+            Seu navegador não suporta o elemento de video.
+          </video>
+          <audio controls>
+            <source src="./Jorge & Mateus - A Hora é Agora - [DVD Ao Vivo em Jurerê] - (Clipe Oficial).mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+          
+          <canvas id="meuCanvas" width="200" height="100" style="border:1px solid #ff0000;"></canvas>
+          <script>
+            var canvas = document.getElementById("meu canvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(10, 10, 50, 50,);
+          </script>
+           <br>
+          <a href="mailto:0001066760@senaimgaluno.com.br">Contate-nos por e-mail</a>
+          <br>
+          <a href="https://wa.me/5534984186943text=oi_mundo"> Mande um oi </a>
+          <br>
+          <a href="./Aula Especial 1 HTML.pdf" download>Download do documento</a>
+          <br>
+          <a href="https://shopee.com.br/product/762304920/17581313915?gsht=cLH0Hv3800Qm22ma&srsltid=AfmBOorGJSDFXbjY1fLRGG3WA1tBKCLjqEC86QgYNgjjGdKDnjPB2xb5RMo" target="_blank">Abrir em nova Janela</a>
+          
+          <style>
+            .importante {
+              color: red;
+              font-weight: bold;
+            }
+          </style>
+          <p class="importante"> Este parágrafo é importante.</p>
+        </main>
+     <footer>
+         <p>&copy; 2024 Minha Página Incrível. Todos os direitos reservados.
+         </p>
+         <p>Ùltima atualização: <time datetime="2024-01-15T08:00:00"> 15 de Janeiro de 2024</time></p>
+
+     </footer>
+</body>
+</html>

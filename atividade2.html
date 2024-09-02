@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas Culinárias</title>
+  <!-- Parte do CSS-->
+</head>
+<style>
+    /* Estilo para lista com bolinhas numeradas */
+    ul {
+      list-style-type: none; /* Remove os marcadores padrão */
+      counter-reset: item; /* Reinicia o contador */
+      padding-left: 0; /* Remove o recuo padrão */
+    }
+    li {
+      counter-increment: item; /* Incrementa o contador para cada item */
+      margin-bottom: 5px; /* Espaçamento entre os itens */
+    }
+    li:before {
+      content: counter(item); /* Mostra o número do contador como conteúdo antes do item */
+      background-color: #f0f0f0; /* Cor de fundo do número */
+      color: #333; /* Cor do texto do número */
+      font-weight: bold; /* Texto em negrito */
+      border-radius: 50%; /* Borda arredondada para formar um círculo */
+      display: inline-block; /* Exibe como bloco inline */
+      width: 20px; /* Largura do círculo */
+      height: 20px; /* Altura do círculo */
+      line-height: 20px; /* Alinha o número verticalmente no centro */
+      text-align: center; /* Alinha o número horizontalmente no centro */
+      margin-right: 10px; /* Espaçamento à direita do número */
+    }
+  </style>
+<body>
+  <header>
+    <h1>A melhor receita de bolo de chocolate.</h1>
+    <main>
+      <img src="./imagem.avif" alt="bolo de chocolate" />
+    </main>
+    <h1>lista de Ingredientes (10 porções):</h1>
+    <h1>Massa:</h1>
+    <ul>
+    <li>4 ovos</li>
+    <li>2 colheres (sopa) de manteiga</li>
+    <li>2 xícaras (chá) de açúcar</li>
+    <li>1 xícara (chá) de leite</li>
+    <li>4 colheres (sopa) de chocolate em pó</li>
+    <li>3 xícras (chá) de farinha de trigo</li>
+    <li>2 colheres (sopa) de fermento</li>
+</ul>
+<h1>Calda:</h1>
+<ul>
+    <li>2 colheres (sopa) de manteiga</li>
+    <li>2 latas de creme de leite com soro</li>
+    <li>7 colheres (sopa) de chocolate em pó</li>
+    <li>3 colheres (sopa) de açúcar</li>
+</ul>
+<h1>Modo de preparo:</h1>
+<p><strong>Massa</strong>
+<ul>
+    <li>Em um liquidificador adicine os ovos, o chocolate em pó, a manteiga, a farinha de trigo, o açúcar e o leite, depois bata por 5 minutos.</li>
+    <br>
+    <li>Adicione o fermento e misture com uma espátula delicadamente.</li>
+    <br>
+    <li>Em uma forma untada, despeje a massa e asse em forno médio (180°C) preaquecido por cerca de 40 minutos.Não se esqueça de usar uma forma alta para essa receita: como leva duas colheres de fermento, ela cresce bastante! Outra soluçâo pode ser colocar apenas uma colher de fermento e manter a sua receita em uma forma pequena.</li>
+    <br>
+</ul>
+<p><strong>Calda</strong></p>
+<ul>
+    <li>Em uma panela, aqueça a menteiga e misture o chocolate em pó até que esteja homogêneo.</li>
+    <br>
+    <li>Acrescente o creme de leite e misture bem até obter uma consistência crenosa.</li>
+    <br>
+    <li>Desligue o fogo e acrescente o açúcar.</li>
+</ul>
+
+  </header>
+</body>
